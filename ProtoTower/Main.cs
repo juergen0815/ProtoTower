@@ -6,6 +6,7 @@ namespace ProtoTower
 {
 	public class Application
 	{
+		bool someValue = true;
 		delegate void OnParam(string param);
 
 		static String myMessage = "Hello World.";

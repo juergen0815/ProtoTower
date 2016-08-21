@@ -14,7 +14,7 @@ namespace ProtoTower
 		}
 
 		void helloWorld() {
-			Console.WriteLine("Hello World!");
+			Console.WriteLine("Hello World -on my Master (Conflict!)");
 		}
 	}
 }

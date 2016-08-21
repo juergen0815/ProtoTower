@@ -4,6 +4,8 @@ namespace ProtoTower
 {
 	public class Application
 	{
+		bool someValue = true;
+
 		public static void Main(string[] args)
 		{
 			new Application().helloWorld();

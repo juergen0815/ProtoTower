@@ -1,8 +1,8 @@
 ﻿<Properties StartupItem="ProtoTower/ProtoTower.csproj">
   <MonoDevelop.Ide.Workbench ActiveDocument="ProtoTower/Main.cs">
     <Files>
-      <File FileName="ProtoTower/Main.cs" Line="48" Column="31" />
-      <File FileName="ProtoTower/GlobalSuppressions.cs" Line="10" Column="1" />
+      <File FileName="ProtoTower/Main.cs" Line="56" Column="6" />
+      <File FileName="Projects Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.ProtoTower PreferredExecutionTarget="MonoDevelop.Default" />
@@ -10,7 +10,7 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/jschober/Development/Projects/ProtoTower/ProtoTower/Main.cs" line="17" column="1" />
-      <Breakpoint file="/Users/jschober/Development/Projects/ProtoTower/Main.cs" line="37" column="1" />
+      <Breakpoint file="/Users/jschober/Development/Projects/ProtoTower/Main.cs" line="51" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

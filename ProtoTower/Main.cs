@@ -14,7 +14,7 @@ namespace ProtoTower
 		}
 
 		void helloWorld() {
-			Console.WriteLine("Hello Private World!");
+			Console.WriteLine("Hello World!");
 		}
 	}
 }

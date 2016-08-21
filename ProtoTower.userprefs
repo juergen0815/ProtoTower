@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="ProtoTower/ProtoTower.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ProtoTower/Main.cs">
+    <Files>
+      <File FileName="ProtoTower/Main.cs" Line="17" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ProtoTower PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/jschober/Development/Projects/ProtoTower/ProtoTower/Main.cs" line="17" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

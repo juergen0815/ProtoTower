@@ -4,17 +4,19 @@ namespace ProtoTower
 {
 	public class Application
 	{
+		static String myMessage = "Hello World";
+
 		public static void Main(string[] args)
 		{
-			new Application().helloWorld();
+			new Application().HelloWorld();
 		}
 
 		public Application()
 		{
 		}
 
-		void helloWorld() {
-			Console.WriteLine("Hello World!");
+		void HelloWorld() {
+			Console.WriteLine(myMessage);
 		}
 	}
 }

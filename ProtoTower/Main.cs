@@ -6,6 +6,7 @@ namespace ProtoTower
 {
 	public class Application
 	{
+		bool someValue = true;
 		static String myMessage = "Hello World.";
 
 		IDictionary configItems = new Dictionary<string,string>();

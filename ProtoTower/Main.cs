@@ -27,7 +27,7 @@ namespace ProtoTower
 			configItems.Add("help", (OnParam)configHelp);
 			configItems.Add("path", (OnParam)configPath);
 			foreach (string arg in args) {
-				parseArg(arg);
+				//parseArg(arg);
 			}
 			return this;
 		}
@@ -45,24 +45,5 @@ namespace ProtoTower
 			Console.WriteLine("PATH ");
 		}
 
-		void parseArg(string arg)
-		{
-			if (arg.StartsWith("--") || arg.StartsWith("-"))
-			{
-				string[] split = arg.Split('=');
-				string key = split[0].Substring(1);
-				if (key.StartsWith("-"))
-				{
-					key = key.Substring(1);
-				}
-				OnParam cb = (OnParam)configItems[key];
-				if (cb != null) {
-					string val = split.Length > 1 ? split[1] : null;
-					cb(val);
-				} else {
-					Console.WriteLine("Invalid option " + arg);
-				}
-			}
-		}
 	}
 }

@@ -4,19 +4,24 @@ namespace ProtoTower
 {
 	public class Application
 	{
-		bool someValue = true;
+		static String myMessage = "Hello World.";
 
 		public static void Main(string[] args)
 		{
-			new Application().helloWorld();
+			new Application().init(args).HelloWorld();
 		}
 
 		public Application()
 		{
 		}
 
-		void helloWorld() {
-			Console.WriteLine("Hello World!");
+		Application init(string[] args) {
+			// TODO: parse some args here.	
+			return this;
+		} 
+
+		void HelloWorld() {
+			Console.WriteLine(myMessage);
 		}
 	}
 }
